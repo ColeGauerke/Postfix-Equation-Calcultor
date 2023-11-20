@@ -91,8 +91,10 @@ public class Project2{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Stack<Double> num = new Stack<>();
+        System.out.print("Enter the desired number of equations: ");
         int numLines = in.nextInt();
         in.nextLine();
+        System.out.println("Enter the equations below: ");
         String [][] userInput = new String [numLines][];
         for(int i = 0; i < numLines; i++) {
             String input = in.nextLine();                
